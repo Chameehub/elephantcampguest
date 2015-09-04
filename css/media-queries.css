@@ -1,4 +1,4 @@
-/*============================================================
+﻿/*============================================================
 	For Small Desktop
 ==============================================================*/
 
@@ -170,7 +170,10 @@
 
 	/* parallax section */
     .parallax-section {
-        background-position: center top !important;
+        background-attachment: fixed !important;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+    	background-size: cover;    
     }
 
 	/* h1 font size home slider */
@@ -518,4 +521,10 @@
     .tab-post-nav li a {
         padding: 10px 15px;
     }
+    
+    /* accommodation */
+    .accommodation-info {
+        width: 50%;
+    }
+
 }

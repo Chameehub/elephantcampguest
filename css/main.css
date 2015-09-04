@@ -1,4 +1,4 @@
-                                /*
+﻿                                /*
 Template Name: Meghna Responsive HTML5/CSS3 Portfolio Template
 Author: Muhammad Morshed
 Author URI: http://themeforest.net/user/morsheds
@@ -452,15 +452,15 @@ h1, h2, h3, h4, h5, h6 {
 	Services section
 ==================================================================*/
 
-#services {
+#accommodation {
     padding: 70px 0 100px;
 }
 
-#services .title {
-    padding-bottom: 125px;
+#accommodation .title {
+    padding-bottom: 50px;
 }
 
-.service-block {
+.accommodation-block {
     padding: 50px 20px;
     border-left: 1px solid #4e595f;
     border-top: 1px solid #4e595f;
@@ -471,11 +471,11 @@ h1, h2, h3, h4, h5, h6 {
 			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
 }
 
-.service-icon {
+.accommodation-icon {
     margin-bottom: 40px;
 }
 
-.service-block h3 {
+.accommodation-block h3 {
 	text-transform: uppercase;
 }
 
@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
 	Our skills
 ==================================================================*/
 
-#team-skills {
+#safari {
     padding: 70px 0;
     background-image: url(../img/parallax/skills.jpg);
 }
@@ -837,7 +837,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .price-title {
   background-color: #2b2c30;
-  padding: 30px 0 20px;
+  padding: 20px 0 0;
 }
 
 .price-title > h3 {

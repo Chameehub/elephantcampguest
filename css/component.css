@@ -1,4 +1,4 @@
-#og-grid > .mix{
+﻿#og-grid > .mix{
 	display: none;
 }
 
@@ -22,7 +22,7 @@
 .og-grid li > a img {
 	border: none;
 	outline: none;
-	display: block;
+	display: inline;
 	position: relative;
     max-width: 100%;
     height: 250px;
@@ -95,8 +95,8 @@
 
 .og-fullimg,
 .og-details {
-	width: 50%;
-	float: left;
+	/*width: 50%;
+	float: left;*/
 	height: 100%;
 	overflow: hidden;
 	position: relative;
