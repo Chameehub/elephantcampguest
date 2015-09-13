@@ -479,6 +479,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 }
 
+#accommodation .th{
+	color:aqua;
+}
+
 
 
 /*=================================================================
@@ -885,12 +889,42 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #testimonial {
-    background-image: url(../img/parallax/bicycle.jpg);
     padding: 70px 0;
+    background-image: url(../img/parallax/skills.jpg);
 }
 
-#testimonials .owl-wrapper-outer {
-  top: -25px;
+.skill-chart > h3 {
+    border-bottom: 1px solid;
+    margin: 25px 0 15px;
+    padding-bottom: 10px;
+}
+
+.chart {
+    display: block;
+    position: relative;
+}
+
+.percent {
+    display: inline-block;
+    font-size: 1.6em;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    width: 150px;
+    z-index: 2;
+}
+
+.chart canvas {
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+    top: 0;
+}
+
+.percent:after {
+    content: '%';
+    margin-left: .1em;
+    font-size: .8em;
 }
 
 .client-info {
