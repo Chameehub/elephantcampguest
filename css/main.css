@@ -219,9 +219,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-one {
     background-color: #333439;
+    background-image:url('../img/parallax/bed.jpg');
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+    
 }
 
 .parallax-section {
+	background-image:url('../img/parallax/bed.jpg');
 	background-attachment: fixed !important;
 	background-position: center center;
 	background-repeat: no-repeat;
