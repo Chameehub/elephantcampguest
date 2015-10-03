@@ -171,7 +171,7 @@
 	/* parallax section */
     .parallax-section {
         background-attachment: fixed !important;
-    	background-position: center center;
+    	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;    
     }
